@@ -58,7 +58,7 @@ const USER_CONFIG = {
       useTemplateId: '001',
       province: '青岛',
       city: '黄岛',
-      horoscopeDate: '',
+      horoscopeDate: '11-17',
       horoscopeDateType: '',
       openUrl: 'https://wangxinleo.cn',
       festivals: [
@@ -67,7 +67,7 @@ const USER_CONFIG = {
           type: '生日', name: '头哥', year: '1998', date: '11-17',
         },
       ],
-      customizedDateList: [],
+      customizedDateList: null,
       courseSchedule: null
     },
   ],
