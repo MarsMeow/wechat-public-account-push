@@ -69,7 +69,7 @@ const USER_CONFIG = {
       ],
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2023-01-24' },
+        { keyword: 'meet_day', date: '2013-09-01' },
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
       ],
