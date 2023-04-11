@@ -13,9 +13,6 @@ const USER_CONFIG = {
   // 使用微信测试号：公众号APP_SECRET
   APP_SECRET: '',
 
-  PROVINCE: '安徽',
-  CITY: '合肥',
-
   USERS: [
     {
       // 想要发送的人的名字
@@ -25,7 +22,12 @@ const USER_CONFIG = {
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
+      province: '天津',
+      // 所在城市或县区
+      city: '南开区',
+      horoscopeDate: '04-19',
+      horoscopeDateType: '今日',
+      
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -49,6 +51,24 @@ const USER_CONFIG = {
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2022-09-09' },
       ],
+    },
+    {
+      name: '头哥',
+      id: 'PDU21810TMMsijR1pvetKXrNOMbSuaSmIznr6wJTB',
+      useTemplateId: '001',
+      province: '青岛',
+      city: '黄岛',
+      horoscopeDate: '',
+      horoscopeDateType: '',
+      openUrl: 'https://wangxinleo.cn',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '头哥', year: '1998', date: '11-17',
+        },
+      ],
+      customizedDateList: [],
+      courseSchedule: null
     },
   ],
 
