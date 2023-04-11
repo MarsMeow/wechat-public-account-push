@@ -55,7 +55,7 @@ const USER_CONFIG = {
     {
       name: '头哥',
       id: 'PDU21810TMMsijR1pvetKXrNOMbSuaSmIznr6wJTB',
-      useTemplateId: '001',
+      useTemplateId: '0001',
       province: '青岛',
       city: '黄岛',
       horoscopeDate: '11-17',
