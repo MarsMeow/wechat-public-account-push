@@ -16,9 +16,49 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '璐璐小宝贝',
+      name: '马斯小喵',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'PDU21800TBva97ZwfvmjmGBhGofnVtMNBcF9ROF7x',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '0003',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      province: '山东',
+      // 所在城市或县区
+      city: '济南市市中区',
+      horoscopeDate: '04-21',
+      horoscopeDateType: '今日',
+      
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '生日', name: '爱妻', year: '1998', date: '04-19',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '自己', year: '1998', date: '04-21',
+        },
+        {
+          type: '节日', name: '相识纪念日', year: '2016', date: '06-29',
+        },
+        {
+          type: '节日', name: '相恋纪念日', year: '2023', date: '01-24',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2023-01-24' },
+        
+        { keyword: 'meet_day', date: '2016-06-29' },
+        // 结婚纪念日
+        // { keyword: 'marry_day', date: '2022-09-09' },
+      ],
+    },
+    {
+      // 想要发送的人的名字
+      name: '璐璐小宝贝',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'PDU22011TCWfWcbpBQAvQ1GdwAwa4JBntj8vpDX6a',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '0001',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -35,7 +75,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '张传民', year: '1998', date: '04-21',
+          type: '生日', name: '女明星的素人老公', year: '1998', date: '04-21',
         },
         {
           type: '节日', name: '相识纪念日', year: '2016', date: '06-29',
