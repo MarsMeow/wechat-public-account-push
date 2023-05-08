@@ -24,7 +24,7 @@ const USER_CONFIG = {
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       province: '山东',
       // 所在城市或县区
-      city: '济南市市中区',
+      city: '济南市',
       horoscopeDate: '04-21',
       horoscopeDateType: '今日',
       
